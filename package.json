@@ -1,0 +1,34 @@
+{
+  "name": "spreadsheet-commandline-helper",
+  "version": "0.1.0",
+  "description": "A modular commandline tool to help translate spreadsheets into software.",
+  "main": "dist/ss.js",
+  "bin": {
+    "ss": "./dist/ss.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s204475/Spreadsheet-commandline-helper.git"
+  },
+  "keywords": [
+    "Spreadsheet",
+    "process",
+    "translation",
+    "software"
+  ],
+  "author": "Victor Gustav Harbo Rasmussen, Benjamin Lumbye",
+  "license": "GNU GPLv3",
+  "bugs": {
+    "url": "https://github.com/s204475/Spreadsheet-commandline-helper/issues"
+  },
+  "homepage": "https://github.com/s204475/Spreadsheet-commandline-helper#readme",
+  "dependencies": {
+    "commander": "^10.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.3"
+  }
+}
