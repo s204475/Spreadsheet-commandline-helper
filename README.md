@@ -1,4 +1,4 @@
 To install
 ```
-npm install -g https://github.com/s204475/Spreadsheet-commandline-helper.git
+pnpm add -g https://github.com/s204475/Spreadsheet-commandline-helper.git
 ```
